@@ -108,10 +108,6 @@ const RentryClient = require("rentry-client");
     "content": "## Hi\nHello World"
   }
   ```
-
-### Arguments
-- \<ID> : id of the paste e.g. "https://rentry.co/\<ID>"
-- \<TOKEN> : edit code of the paste
-
+  
 ## License
 [MIT License](./LICENSE)
