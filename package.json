@@ -2,11 +2,12 @@
   "name": "rentry-client",
   "version": "1.0.1",
   "description": "A javascript library for creating and managing entries in rentry.co",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "node .",
     "server": "node server/index.js"
   },
+
   "keywords": [
     "markdown",
     "rentry",
