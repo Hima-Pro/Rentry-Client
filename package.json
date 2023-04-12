@@ -1,0 +1,27 @@
+{
+  "name": "rentry-client",
+  "version": "1.0.1",
+  "description": "A javascript library for creating and managing entries in rentry.co",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node .",
+    "server": "node server/index.js"
+  },
+  "keywords": [
+    "markdown",
+    "rentry",
+    "rentry.co",
+    "API",
+    "library"
+  ],
+  "author": "hima-pro",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.5",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "rentry-client": "^1.0.0"
+  }
+}
