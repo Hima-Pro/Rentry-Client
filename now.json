@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "name": "RentryJS",
+  "build": {
+    "env": {}
+  },
+  "builds": [
+    {
+      "src": "server/index.js",
+      "use": "@now/node",
+      "config": {
+        "maxLambdaSize": "50mb"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "(.*)",
+      "dest": "server/index.js"
+    }
+  ]
+}

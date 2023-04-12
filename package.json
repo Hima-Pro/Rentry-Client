@@ -1,13 +1,12 @@
 {
   "name": "rentry-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A javascript library for creating and managing entries in rentry.co",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "node .",
+    "test": "node tests/test.js",
     "server": "node server/index.js"
   },
-
   "keywords": [
     "markdown",
     "rentry",
@@ -22,7 +21,6 @@
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "form-data": "^4.0.0",
-    "rentry-client": "^1.0.0"
+    "form-data": "^4.0.0"
   }
 }
